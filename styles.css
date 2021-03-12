@@ -1,18 +1,25 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #dee2ff, #feeafa, #cbc0d3);
+}
+
 body {
   text-align: center;
-  background-color: #283149;
 }
 
 h1 {
+  padding: 0;
   font-size: 5rem;
-  color: #DBEDF3;
+  color: white;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #cbc0d3;
+  margin-top: 10%;
+  margin-bottom: 0;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color: white;
   font-family: sans-serif;
 }
 
@@ -45,7 +52,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 3% auto;
 }
 
 .game-over {
@@ -64,13 +71,13 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #cbc0d3;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #efd3d7;
+  text-shadow: 3px 0 white;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
